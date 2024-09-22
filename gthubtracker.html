@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GitHub Profile Fetcher</title>
+  <style>
+    #profileInfo {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <input type="text" id="usernameInput" placeholder="Enter GitHub username">
+  <button id="fetchButton">Fetch Profile</button>
+  <div id="profileInfo"></div>
+  <script src="fetch.js"></script>
+</body>
+</html>
